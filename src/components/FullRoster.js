@@ -1,5 +1,5 @@
 import React from 'react'
-import PlayerAPI from '../api'
+import DeveloperAPI from '../api'
 import { Link } from 'react-router-dom'
 
 // The FullRoster iterates over all of the developers and creates
@@ -8,7 +8,7 @@ const FullRoster = () => (
   <div>
     <ul>
       {
-        PlayerAPI.all().map(p => (
+        DeveloperAPI.all().map(p => (
           <li key={p.number}>
             <Link to={`/roster/${p.number}`}>{p.name}</Link>
           </li>
