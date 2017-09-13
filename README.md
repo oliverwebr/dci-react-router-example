@@ -1,6 +1,6 @@
 # React-Router example
 
-#. Checkout the example App
+## Checkout the example App
 
 - get familiar with the architecture
 - understand routes
