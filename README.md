@@ -8,3 +8,8 @@
 ```
 /roster/:name
 ```
+
+## Tools
+Build with: https://github.com/facebookincubator/create-react-app
+
+Deployed to Heroku with: https://github.com/mars/create-react-app-buildpack
